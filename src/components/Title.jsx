@@ -1,15 +1,16 @@
 import PropTypes from 'prop-types'
 
-const Title = ({ titleText = 'THE ERA OF DRONES' }) => {
+const HeaderTitle = ({ titleText }) => {
   return (
     <>
-      <h2>{titleText}</h2>
+      <h2 className='text-base md:text-[32px]'>{titleText}</h2>
+      <div className="border-t-2 border-primary w-16 mx-auto mt-4"></div>
     </>
   )
 };
 
-Title.propTypes = {
+HeaderTitle.propTypes = {
   titleText: PropTypes.string
 };
 
-export default Title
+export default HeaderTitle
