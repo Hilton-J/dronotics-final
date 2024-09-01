@@ -4,8 +4,13 @@ import Links from "./Links"
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between items-center py-3 px-7 absolute w-screen">
-      <div className="text-xl md:text-4xl"><span>D</span><span className="text-secondary">Z</span></div>
+    <div className="flex justify-between items-center p-5 absolute w-full">
+      <div className="text-xl md:text-4xl">
+        <a href="#" target="_blank" className="cursor-pointer">
+          <span>D</span>
+          <span className="text-secondary">Z</span>
+        </a>
+      </div>
       <nav className="flex-1 flex justify-center">
         <Links />
       </nav>

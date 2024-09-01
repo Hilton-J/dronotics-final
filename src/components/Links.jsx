@@ -1,14 +1,26 @@
+import PropTypes from 'prop-types'
 
+const Links = ({ isFooter = false }) => {
 
-const Links = () => {
+  const aboutText = isFooter ? 'ABOUT US' : 'ABOUT';
+  const style = isFooter ? 'flex justify-between md:text-2xl w-[270px]' : 'flex justify-between md:text-2xl w-[270px] ml-32'
+
   return (
     <>
-      <ul className="flex justify-center md:text-2xl space-x-4">
-        <li><a href="#about" className="hover:text-secondary">ABOUT</a></li>
-        <li><a href="#about" className="hover:text-secondary ml-10">ARTICLES</a></li>
+      <ul className={style}>
+        <li>
+          <a href="#about" className="hover:text-secondary">{aboutText}</a>
+        </li>
+        <li>
+          <a href="#articles" className="hover:text-secondary">ARTICLES</a>
+        </li>
       </ul>
     </>
   )
-}
+};
+
+Links.propTypes = {
+  isFooter: PropTypes.bool
+};
 
 export default Links
