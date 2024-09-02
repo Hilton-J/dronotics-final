@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const Links = ({ isFooter = false }) => {
 
   const aboutText = isFooter ? 'ABOUT US' : 'ABOUT';
-  const style = isFooter ? 'flex justify-between md:text-2xl w-[270px]' : 'flex justify-between md:text-2xl w-[270px] ml-32'
+  const style = isFooter ? 'flex md:justify-between md:text-2xl w-full md:w-[270px]' : 'flex justify-between md:text-2xl w-[270px] ml-32'
 
   return (
     <>
