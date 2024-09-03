@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const HeaderTitle = ({ titleText, isHero = true }) => {
 
-  const style = isHero ? "border-t-2 md:border-t-4 border-primary w-16 md:w-24 lg:w-32 md:mt-6 mt-3" : "border-t-2 md:border-t-4 md:border-primary w-16 md:mt-6 mt-3";
+  const style = isHero ? "border-t-2 md:border-t-4 border-primary w-16 md:w-24 lg:w-32 md:mt-6 mt-3" : "border-t-2 md:border-t-4 md:border-primary border-secondary w-16 md:mt-6 mt-3";
 
   return (
     <>
