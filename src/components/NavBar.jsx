@@ -1,8 +1,15 @@
 import Buttons from "./Buttons"
 import Links from "./Links"
+import { HiMiniBars3 } from "react-icons/hi2"
+// import { useState } from 'react'
 
 
 const NavBar = () => {
+  // const [navLinks, showNavLinks] = useState(0);
+
+  // const 
+
+
   return (
     <div className="flex justify-between items-center p-5 absolute w-full">
       <div className="text-xl md:text-4xl ">
@@ -14,7 +21,13 @@ const NavBar = () => {
       <nav className="flex-1 md:flex justify-center hidden">
         <Links />
       </nav>
-      <Buttons />
+
+      <HiMiniBars3 />
+
+      <div className="hidden md:block">
+        <Buttons />
+      </div>
+
     </div>
   )
 }
