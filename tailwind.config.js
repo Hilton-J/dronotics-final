@@ -17,7 +17,7 @@ export default {
         'drop': '#F8F8F8'
       },
       gridTemplateColumns: {
-        '1111': 'repeat(auto-fit, minmax(16rem,1fr))'
+        '1111': 'repeat(auto-fit, minmax(17.8rem,1fr))'
       }
     },
   },

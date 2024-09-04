@@ -4,7 +4,7 @@ const HeaderTitle = ({ titleText, style }) => {
 
   return (
     <>
-      <h2 className='text-[1rem] md:text-[23px] lg:text-[32px]'>{titleText}</h2>
+      <h2 className='text-base md:text-lg lg:text-3xl'>{titleText}</h2>
       <div className={style}></div>
     </>
   )
