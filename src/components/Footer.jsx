@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex items-center w-full md:w-auto md:gap-14 md:justify-end">
           <Links isFooter={true} />
         </div>
-        <div className=" text-xs md:text-lg text-primary text-center md:col-span-2">
+        <div className=" text-xs md:text-md lg:text-base text-primary text-center md:col-span-2">
           © 2024{" "}
           <a href="https://flowbite.com/" className="hover:text-secondary hover:underline">
             Lwandile Majola™
