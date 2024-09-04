@@ -24,4 +24,5 @@ This project uses the following main packages:
 - **React Router**
 - **Axios**
 - **ESLint**
-- **TailwindCSS** : npm install -D tailwindcss postcss autoprefixer
+- **TailwindCSS** : npm i -D tailwindcss postcss autoprefixer
+- **React-Icons** : npm i react-icons
