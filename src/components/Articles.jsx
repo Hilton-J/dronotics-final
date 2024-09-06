@@ -1,5 +1,5 @@
 import Title from './HeaderTitle'
-import Data from '../articleData'
+import Data from '../ArticleData'
 
 const Articles = () => {
   return (
