@@ -10,11 +10,11 @@ const Articles = () => {
           {
             Data.map(({ image, title, id }) => {
               return (
-                <div key={id} className='grid grid-rows-subgrid row-span-3 bg-white shadow-lg'>
+                <article key={id} className='grid grid-rows-subgrid row-span-3 bg-white shadow-lg'>
                   <img src={image} alt='DRONE' className='h-full' />
                   <div className='mx-auto border-t-2 md:border-t-3 md:border-primary border-primary w-10 lg:w-12 mt-3'></div>
                   <p className='text-center sm:text-lg md:text-lg px-8 sm:px-20 lg:px-16 xl:px-10 pt-2 pb-14 lg:pb-20'>{title}</p>
-                </div>
+                </article>
               )
             })
           }

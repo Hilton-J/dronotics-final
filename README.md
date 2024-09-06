@@ -21,8 +21,7 @@ This project uses the following main packages:
 
 - **React**
 - **Vite**
-- **React Router**
-- **Axios**
 - **ESLint**
 - **TailwindCSS** : npm i -D tailwindcss postcss autoprefixer
 - **React-Icons** : npm i react-icons
+- **REACT-MORDERN-DRAWER** : npm i --save react-modern-drawer
