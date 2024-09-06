@@ -30,7 +30,7 @@ const NavBar = () => {
       <div className="text-2xl md:text-4xl flex md:hidden">
         <a onClick={toggleDrawer} className="transition duration-700 cursor-pointer hover:text-secondary">{isOpen ? <IoMdClose /> : <HiMiniBars3 />}</a></div>
 
-      {isOpen && <ShowDrawer isOpen={isOpen} setIsOpen={setIsOpen} />}
+      <div className="absolute"><ShowDrawer isOpen={isOpen} setIsOpen={setIsOpen} /></div>
 
       <div className="hidden md:block">
         <Buttons />

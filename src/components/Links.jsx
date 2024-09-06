@@ -9,7 +9,7 @@ const Links = ({ isFooter = false }) => {
     <>
       <ul className={style}>
         <li>
-          <a href="#about" className="hover:text-secondary">{aboutText}</a>
+          <a href="#about" className="hover:text-secondary" >{aboutText}</a>
         </li>
         <li>
           <a href="#articles" className="hover:text-secondary">ARTICLES</a>
