@@ -18,8 +18,8 @@ const ShowDrawer = ({ isOpen, setIsOpen }) => {
       className='text-black'
       overlayOpacity={0.8}
       enableOverlay={true}
-      zIndex={100}
       style={style}
+      duration={400}
     >
       <ul className='flex flex-col md:text-2xl px-5'
       >
