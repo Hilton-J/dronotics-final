@@ -16,7 +16,7 @@ const NavBar = () => {
 
 
   return (
-    <div className="flex justify-between items-center p-5 absolute w-full">
+    <div className="flex justify-between items-center p-5 absolute w-full bg-gradient-to-br to-[rgba(255,255,255,0.2)]  from-[rgba(255,255,255,0.4)] backdrop-blur-xl shadow-lg">
       <div className="text-2xl md:text-4xl">
         <a href="#" target="_blank" className="cursor-pointer">
           <span>D</span>
@@ -35,7 +35,6 @@ const NavBar = () => {
       <div className="hidden md:block">
         <Buttons />
       </div>
-
     </div>
   )
 }
