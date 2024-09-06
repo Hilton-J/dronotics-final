@@ -21,9 +21,9 @@ const NavBar = () => {
       <nav className="flex-1 md:flex justify-center hidden">
         <Links />
       </nav>
-
-      <HiMiniBars3 />
-
+      <div className="block md:hidden">
+        <HiMiniBars3 />
+      </div>
       <div className="hidden md:block">
         <Buttons />
       </div>
