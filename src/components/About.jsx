@@ -3,7 +3,7 @@ import Title from './HeaderTitle'
 
 const About = () => {
   return (
-    <section className='h-screen'>
+    <section id='about' className='h-screen'>
       <div className="grid lg:grid-cols-2 relative h-full">
         <div className='bg-about2 lg:bg-about bg-no-repeat bg-center bg-cover blur-sm lg:blur-none '>
           {/* <img src={image} alt="Drone Image" className="w-full" /> */}
