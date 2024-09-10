@@ -7,13 +7,13 @@ import Subscribe from "./components/Subscribe"
 function App() {
 
   return (
-    <>
+    <div className="">
       <Hero />
-      <Articles/>
+      <Articles />
       <About />
       <Subscribe />
       <Footer />
-    </>
+    </div>
   )
 }
 
