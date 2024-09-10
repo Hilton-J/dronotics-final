@@ -6,7 +6,7 @@ const Articles = () => {
     <section className='py-24 md:py-40 px-16 sm:px-32 md:px-16 lg:px-38 bg-drop'>
       <div className='flex flex-col items-center'>
         <Title titleText={'LATEST ARTICLES'} style={"border-t-2 md:border-t-4 border-primary w-16 md:mt-6 mt-3"} />
-        <div className='grid grid-cols-1111 gap-8 mx-7 sm:mx-14 md:mx-0 lg:mx-10'>
+        <div className='grid grid-cols-1111 gap-8 mx-7 sm:mx-14 lg:mx-14 mt-20 lg:w-9/12'>
           {
             Data.map(({ image, title, id }) => {
               return (
