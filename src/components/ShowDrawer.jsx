@@ -15,7 +15,7 @@ const ShowDrawer = ({ isOpen, setIsOpen }) => {
       onClose={openDrawer}
       direction='right'
       duration={1000}
-      className='bg-gradient-to-br to-[rgba(255,255,255,0.2)]  from-[rgba(255,255,255,0.4)] backdrop-blur-xl'
+      className='bg-gradient-to-br to-[rgba(255,255,255,0.2)]  from-[rgba(255,255,255,0.4)] h-full'
       overlayOpacity={0.8}
       enableOverlay={true}
     >
