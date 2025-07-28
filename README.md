@@ -1,4 +1,4 @@
-# dronotics-final
+# Dronotics
 
 This project is a frontend exercise where we were tasked with replicating a Figma design as closely as possible. The primary goal was to practice and demonstrate proficiency in transforming design mockups into functional user interfaces using modern front-end technologies.
 
